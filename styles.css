@@ -1,0 +1,80 @@
+body {
+    background-image: url(/IMG/background2.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    color: rgba(49, 48, 48, 0.767);
+    font-family: sans-serif;
+}
+.login {
+    backdrop-filter: blur(1px);
+    border-radius: 1em;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 25em;
+    width: 25em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+.login h1 {
+    border-bottom: 1px solid #ffffff;
+    box-shadow: #3b3b3b;
+    text-align: center;
+}
+.login form {
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+form .username {
+    position: relative;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+.username input {
+    color: white;
+    width: 100%;
+    padding: 0 0.313em;
+    margin: 10px 0;
+    height: 2.5em;
+    font-size: 16px;
+    border: 0.5px solid white;
+    border-radius: 1rem;
+    background: none;
+    outline: none;
+}
+.recordar {
+    margin: 1.5em 0;
+    text-align: center;
+}
+.recordar:hover {
+    cursor: pointer;
+    color: blue;
+}
+input[type="submit"]{
+    width: 12.5em;
+    height: 3em;
+    background-color: #ffffff;
+    position: relative;
+    transform: translate(45%, 10%);
+    border: 1px transparent;
+    border-radius: 1rem;
+}
+input[type="submit"]:hover {
+    background-color: beige;
+}
+
+.registrarse {
+    border-radius: 1rem;    
+    text-align: center;
+    font-size: 16px;
+    margin: 30px 0;
+}
+.registrarse a {
+    color: white;
+    text-decoration: none;
+}
+.registrarse a:hover {
+    cursor: pointer;
+    color: blue;
+    border-radius: 1rem;
+    text-decoration: none;
+}
